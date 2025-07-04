@@ -4,6 +4,7 @@
   ...
 }: {
   imports = [
+    ./cursor.nix
     ./gtk.nix
     ./programs
     ./services
