@@ -13,5 +13,9 @@
       package = pkgs.papirus-nord;
       name = "Papirus-Dark";
     };
+    theme = {
+      package = pkgs.nordic;
+      name = "Nordic";
+    };
   };
 }
