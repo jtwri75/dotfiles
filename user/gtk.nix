@@ -9,5 +9,9 @@
       package = pkgs.inter;
       name = "Inter";
     };
+    iconTheme = {
+      package = pkgs.papirus-nord;
+      name = "Papirus-Dark";
+    };
   };
 }
