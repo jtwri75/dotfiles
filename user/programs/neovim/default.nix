@@ -17,5 +17,6 @@
   home.packages = with pkgs; [
     gcc
     nil
+    ripgrep
   ];
 }
