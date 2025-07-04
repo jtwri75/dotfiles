@@ -13,6 +13,10 @@ in {
       modifier = "Mod4";
       terminal = "foot";
       bars = [];
+      gaps = {
+        inner = 4;
+        outer = 4;
+      };
       keybindings = let
         inherit (config.wayland.windowManager.sway.config) modifier terminal;
       in {
