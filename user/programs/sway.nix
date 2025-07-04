@@ -27,6 +27,9 @@ in {
         "${modifier}+5" = "workspace number 5";
         "${modifier}+6" = "workspace number 6";
 
+        "${modifier}+Comma" = "workspace prev";
+        "${modifier}+Period" = "workspace next";
+
         "${modifier}+Shift+1" = "move container to workspace number 1";
         "${modifier}+Shift+2" = "move container to workspace number 2";
         "${modifier}+Shift+3" = "move container to workspace number 3";
