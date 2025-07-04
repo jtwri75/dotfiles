@@ -17,6 +17,40 @@ in {
         inner = 4;
         outer = 4;
       };
+      window = {
+        border = 2;
+        titlebar = false;
+      };
+      colors = {
+        focused = {
+          background = "#000000";
+          text = "#000000";
+          border = "#8fbcbb";
+          indicator = "#8fbcbb";
+          childBorder = "#8fbcbb";
+        };
+        focusedInactive = {
+          background = "#000000";
+          text = "#000000";
+          border = "#3b4252";
+          indicator = "#3b4252";
+          childBorder = "#3b4252";
+        };
+        unfocused = {
+          background = "#000000";
+          text = "#000000";
+          border = "#3b4252";
+          indicator = "#3b4252";
+          childBorder = "#3b4252";
+        };
+        urgent = {
+          background = "#000000";
+          text = "#000000";
+          border = "#bf616a";
+          indicator = "#bf616a";
+          childBorder = "#bf616a";
+        };
+      };
       keybindings = let
         inherit (config.wayland.windowManager.sway.config) modifier terminal;
       in {
