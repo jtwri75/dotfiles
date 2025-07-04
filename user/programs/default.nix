@@ -8,7 +8,7 @@
     ./fish.nix
     ./foot.nix
     ./git.nix
-    ./neovim.nix
+    ./neovim
     ./starship.nix
     ./sway.nix
   ];
