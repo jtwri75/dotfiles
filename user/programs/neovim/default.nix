@@ -13,4 +13,8 @@
     source = ./config;
     recursive = true;
   };
+
+  home.packages = with pkgs; [
+    gcc
+  ];
 }
