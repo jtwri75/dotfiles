@@ -3,5 +3,8 @@
   pkgs,
   ...
 }: {
-  time.timeZone = "Asia/Kolkata";
+  time = {
+    timeZone = "Asia/Kolkata";
+    hardwareClockInLocalTime = true;
+  };
 }

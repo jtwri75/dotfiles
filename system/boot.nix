@@ -12,7 +12,12 @@
     };
     loader = {
       efi.canTouchEfiVariables = true;
-      systemd-boot.enable = true;
+      grub = {
+        enable = true;
+        device = "nodev";
+        efiSupport = true;
+        useOSProber = true;
+      };
     };
   };
 }
