@@ -3,7 +3,7 @@ return {
   build = ':TSUpdate',
   main = 'nvim-treesitter.configs',
   opts = {
-    ensure_installed = { 'lua', 'luadoc', 'nix', 'diff', 'query', 'vim', 'vimdoc' },
+    ensure_installed = { 'c', 'lua', 'luadoc', 'nix', 'diff', 'query', 'vim', 'vimdoc' },
     highlight = { enable = true },
   },
 }

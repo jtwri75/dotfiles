@@ -10,6 +10,7 @@ return {
     })
 
     local servers = {
+      clangd = {},
       lua_ls = {},
       nil_ls = {},
     }
